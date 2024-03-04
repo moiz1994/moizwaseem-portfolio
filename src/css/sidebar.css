@@ -1,0 +1,35 @@
+body {
+    background-color: #1a1a1a;
+    color: #fff;
+}
+
+.sidebar {    
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #333;
+    padding-top: 20px;
+    width: 200px; /* Adjust the width as needed */
+    height: 95%; /* Make it full height of the viewport or adjust as needed */
+    border-radius: 10px; /* Add rounded corners */
+    margin: 20px 0 20px 20px; /* Adjust top, right, bottom, left margins */
+    
+}
+
+.sidebar a {
+    padding: 15px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #fff;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidebar a:hover {
+    background-color: #555;
+}
+
+.content {
+    margin-left: 250px;
+    padding: 16px;
+}
